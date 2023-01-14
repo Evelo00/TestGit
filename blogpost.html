@@ -11,32 +11,57 @@
 
 <body>
     <h1>Aprendiendo Git y Github con Platzi Expert</h1>
+        <span class="span">git init: lo usamos para determinar la carpeta en la que vamos a trabajar.</span>
+        <span class="span">git status: lo usamos para saber si tenemos un archivo añadido o borrado en nuestro proyecto, para saber
+            en la
+            rama en la que estamos y si tenemos commits.</span>
+        <span class="span">git add: es para añadir un archivo a nuestra rama seguidamente ponemos entre comillas el nombre de nuestro
+            archivo o poner un punto para añadir todos los archios de nuestra carpeta.</span>
+        <span class="span">git rm: lo usamos para borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama
+            usamosgit rm --cached.</span>
+        <span class="span">git commit: se usa para añadir un commit a nuestra rama, también podemos ponerle un -m seguidamente
+            ponemos
+            entre comillas nuestro ensaje.</span>
+        <span class="span"> git config: muestra configuraciones de git también podemos usar -list para mostrar la configuración por
+            defecto
+            de nuestro git y si añadimos --show-origin inhales nos muestra las configuraciones guardadas y su
+            ubicación.</span>
+        <span class="span"> git config --global user.name: cambia de manera global el nombre del usuario, seguidamente ponemos entre
+            comillas nuestro nombre.</span>
+        <span class="span"> git config --global user.email: cambia de manera global el email del usuario, seguidamente ponemos entre
+            comillas nuestro nombre.</span>
+        <span class="span"> git log: se usa para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando
+            se
+            realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.</span>
+
+
+    <h3>Trabajar Git desde servidores como github a gran escala</h3>
     <p>
-        git init: lo usamos para determinar la carpeta en la que vamos a trabajar.
+    <h4>Comandos</h4>
+    <p>
+        Adicionalmente, tenemos otros comandos que nos sirven para trabajar en proyectos muy grandes:
+    <ul>
+        <li>git log --oneline:Te muestra el id commit y el título del commit.</li>
+        <li>git log --decorate: Te muestra donde se encuentra el head point en el log.</li>
+        <li>git log --stat: Explica el número de líneas que se cambiaron brevemente.</li>
+        <li>git log -p: Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.</li>
+        <li>git shortlog: Indica que commits ha realizado un usuario, mostrando el usuario y el título de sus commits.
+        </li>
+        <li>git log --graph --oneline --decorate y</li>
+        <li>git log --pretty=format:"%cn hizo un commit %h el dia %cd": Muestra mensajes personalizados de los commits.
+        </li>
+        <li>git log -3: Limitamos el número de commits.</li>
+        <li>git log --after=“2018-1-2”</li>
+        <li>git log --after=“today” y</li>
+        <li>git log --after=“2018-1-2” --before=“today”: Commits para localizar por fechas.</li>
+        <li>git log --author=“Name Author”: Commits hechos por autor que cumplan exactamente con el nombre.</li>
+        <li>git log --grep=“INVIE”: Busca los commits que cumplan tal cual está escrito entre las comillas.</li>
+        <li>git log --grep=“INVIE” –i: Busca los commits que cumplan sin importar mayúsculas o minúsculas.</li>
+        <li>git log – index.html: Busca los commits en un archivo en específico.</li>
+        <li>git log -S “Por contenido”: Buscar los commits con el contenido dentro del archivo.</li>
+        <li>git log > log.txt: guardar los logs en un archivo txt</li>
 
-        git status: lo usamos para saber si tenemos un archivo añadido o borrado en nuestro proyecto, para saber en la
-        rama en la que estamos y si tenemos commits.
-
-        git add: es para añadir un archivo a nuestra rama seguidamente ponemos entre comillas el nombre de nuestro
-        archivo o poner un punto para añadir todos los archios de nuestra carpeta.
-
-        git rm: lo usamos para borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama
-        usamosgit rm --cached.
-
-        git commit: se usa para añadir un commit a nuestra rama, también podemos ponerle un -m seguidamente ponemos
-        entre comillas nuestro ensaje.
-
-        git config: muestra configuraciones de git también podemos usar -list para mostrar la configuración por defecto
-        de nuestro git y si añadimos --show-origin inhales nos muestra las configuraciones guardadas y su ubicación.
-
-        git config --global user.name: cambia de manera global el nombre del usuario, seguidamente ponemos entre
-        comillas nuestro nombre.
-
-        git config --global user.email: cambia de manera global el email del usuario, seguidamente ponemos entre
-        comillas nuestro nombre.
-
-        git log: se usa para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se
-        realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
+    </ul>
     </p>
 </body>
 
