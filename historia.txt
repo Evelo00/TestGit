@@ -3,3 +3,5 @@ hola buenas. solo pruebo eso aqui
 aqui estoy realizando cambios general
 
 aprendiendo git por presion de los medios y toda la infraestructura de programacion.
+
+hoy solo soy un estudiante mas en esta area.
