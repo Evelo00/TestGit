@@ -2,8 +2,9 @@ body {
     font-family: "Arial";
     background-color: whitesmoke;
     color:slateblue;
-    padding: auto;
-    margin: 20px;
+    margin: auto;
+    max-width: 75ch;
+    text-align: justify;
 }
 
 h1{
@@ -20,14 +21,12 @@ h3{
 
 .spans{
     font-size: 16px;
-    margin: 90px;
     text-align:left; 
     word-spacing: 10;
 }
 
 .listado{
     font-size: 16px;
-    margin: 90px;
     text-align:left; 
     word-spacing: 10;
 }
